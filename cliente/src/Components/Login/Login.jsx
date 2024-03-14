@@ -1,6 +1,6 @@
 import React from "react"
 import './Login.css'
-//import '../../App.css'
+
 
 import { Link } from "react-router-dom";
 
@@ -62,7 +62,7 @@ const Login = () => {
 
                         <button type="submit" className="btn flex">
                             <span>
-                            <a href="src/Components/Login/index.html">Iniciar Sesión</a>
+                            <a href="/Dashboard">Iniciar Sesión</a>
                             </span>
                                                      
                              <AiOutlineSwapRight className='icon' />
