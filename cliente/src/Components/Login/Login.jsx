@@ -1,6 +1,6 @@
 import React from "react"
 import './Login.css'
-/* import '../../App.css' */
+//import '../../App.css'
 
 import { Link } from "react-router-dom";
 
@@ -17,8 +17,8 @@ const Login = () => {
     return (
         <div className="loginPage flex">
             <div className="container flex">
-                { <div className="videoDiv">  
-                    <video src={video} autoPlay  muted loop></video>
+                {<div className="videoDiv">
+                    <video src={video} autoPlay muted loop></video>
 
                     <div className="textDiv">
                         <h2 className="title">Hablemos Verde</h2>
@@ -33,7 +33,7 @@ const Login = () => {
                             <button className="btn">Registrate aquí</button>
                         </Link>
                     </div>
-                </div> }
+                </div>}
 
                 <div className="formDiv flex">
                     <div className="headerDiv">
@@ -61,8 +61,11 @@ const Login = () => {
                         </div>
 
                         <button type="submit" className="btn flex">
-                            <span> Iniciar Sesión </span>
-                            <AiOutlineSwapRight className='icon'/>
+                            <span>
+                            <a href="src/Components/Login/index.html">Iniciar Sesión</a>
+                            </span>
+                                                     
+                             <AiOutlineSwapRight className='icon' />
                         </button>
 
 
