@@ -8,7 +8,7 @@
 }
 
 :root {
-    --primaryColor: hsl(94, 55%, 56%);
+    --primaryColor: #30844B;
     --hoverColor: hsl(93, 75%, 89%);
     --paleGreen: hsl(96, 75%, 89%);
     --whiteColor: hsl(0, 0%, 100%);
@@ -68,11 +68,19 @@ video {
     display: none;
 
 }
+.showMessage{
+    display: block;
+    color: var(--whiteColor);
+    padding: 10px;
+    background:#30844B;
+    border-radius: 3px;
+    text-align: center;
 
+}
 .showMessage {
     display: block;
     color: var(--whiteColor);
-    background: rgb(255, 0, 0);
+    background: #30844B;
     border-radius: 3px;
     text-align: center;
 }
@@ -276,6 +284,19 @@ video {
 
                 }
 
+            }
+
+            .forgotPassword{
+                font-size: 11px;
+                color: var(--blackColor);
+                opacity: .7;
+                text-align: center;
+
+                a{
+                    text-decoration: underline;
+                    cursor: pointer;
+                    opacity:1;
+                }
             }
 
             

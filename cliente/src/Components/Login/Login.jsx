@@ -42,7 +42,7 @@ const Login = () => {
                     </div>
 
                     <form action="" className="form grid">
-                        <span>El estado de inicio de sesión mostrará aquí </span>
+                        <span className="showMessage">El estado de inicio de sesión mostrará aquí </span>
                         <div className="inputDiv">
                             <label htmlFor="username">Usuario</label>
                             <div className="input flex">
